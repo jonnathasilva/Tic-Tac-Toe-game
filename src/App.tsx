@@ -8,7 +8,6 @@ export const App = () => {
   const handClick = (e: React.MouseEvent<HTMLElement>) => {
     if (List[Number(e.currentTarget.id)] !== "" || isGain) return;
 
-    console.log(player);
     List.splice(Number(e.currentTarget.id), 1, player === 1 ? "O" : "X");
     setList([...List]);
   };
