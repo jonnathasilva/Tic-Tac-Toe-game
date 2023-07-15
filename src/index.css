@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.X {
+  background: #60a5fa;
+  cursor: no-drop;
+}
+
+.O {
+  background-color: #f87171;
+  cursor: no-drop;
+}
